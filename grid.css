@@ -1,0 +1,41 @@
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+.box{
+    background-color: rgb(245, 172, 174);
+    color:blue;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.container_grid{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 500px 300px;
+    grid-auto-rows: minmax(150px, auto);
+    gap: 2rem;
+
+}
+
+.box:first-child{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.box:nth-child(2){
+    background-color: rgb(108, 16, 188);
+    grid-column: 2/3;
+    
+}

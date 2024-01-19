@@ -1,0 +1,30 @@
+
+.a{
+    background-color: yellow ;
+    font-size: 17px;
+}
+.b{
+    background-image: url("pic.jpg") ;
+    font-size: 17px;
+}
+.c{
+    background-color: red;
+    font-size: 17px;
+}
+.d{
+    background-image: url("img.png") ;
+    font-size: 17px;
+}
+.e{
+    background-image: url("pic.jpg");
+    font-size: 17px;
+}
+.f{
+    font-size: 12px;
+}
+
+.g{
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 9px;
+}

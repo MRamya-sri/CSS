@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    background-color: rgb(244, 33, 170);
+    background-image: radial-gradient( whitesmoke,grey);
+    display:flex;
+    flex-direction: column;
+
+}
+
+header,nav, main, footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header, footer{
+    position: sticky;
+    background-color: yellow;
+    color: black;
+}
+
+header{
+    top:0;
+}
+
+nav{
+    background-color: aqua;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+
+}
+
+footer{
+    bottom: 0;
+}
+
+main{
+    flex-grow: 1;
+}
+
+
+
+@media screen and (min-width: 576px)
+{
+    body{
+       background-color: rgb(241, 15, 166);
+       background-image: radial-gradient( whitesmoke,grey);
+    }
+
+}
+
+nav{
+    display: none;
+}

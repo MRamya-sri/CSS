@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 255, 160);
+}
+html{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px  dotted rgb(26, 1, 1);
+    border-radius: 100px;
+    display: grid;
+    place-content: center;
+   
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+div:first-child{
+    background-color: aqua;
+    /*transform: translateX(50%);
+      transform:rotateX(180deg);
+      transform: scaleY(120%);
+      transform:skewY(10deg);*/
+
+}
+div:nth-child(2){
+    background-color: burlywood;
+}
+div:last-child{
+    background-color: rgb(157, 241, 161);
+}
+
+div:last-child:hover{
+    transform: rotate(180deg);
+
+}
+.animate{
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform:translateX(600px) rotate(180deg);
+        }
+    66%{
+        transform: translateX(-600px) rotate(-180deg);
+    }
+    100%{
+        transform: translateX(0);
+        background-color: palevioletred;
+    }
+    
+}
