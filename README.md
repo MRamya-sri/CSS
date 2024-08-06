@@ -1,4 +1,4 @@
-### CSS Concepts
+## CSS Concepts
 Welcome to the CSS Concepts repository! This project contains various examples and resources to help you understand and implement different CSS techniques. Below you will find descriptions of each CSS concept covered in this repository along with links to the corresponding HTML and CSS files.
 
 ### Table of Contents
