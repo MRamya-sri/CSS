@@ -3,14 +3,23 @@ Welcome to the CSS Concepts repository! This project contains various examples a
 
 ### Table of Contents
 Animate.css
+
 Animate.html
+
 Flex.css
+
 Flex.html
+
 Grid.css
+
 Grid.html
+
 Media.css
+
 Media.html
+
 Properties.css
+
 Properties.html 
 
 
