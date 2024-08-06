@@ -2,17 +2,17 @@
 Welcome to the CSS Concepts repository! This project contains various examples and resources to help you understand and implement different CSS techniques. Below you will find descriptions of each CSS concept covered in this repository along with links to the corresponding HTML and CSS files.
 
 ### Table of Contents
-    Animate.css
-    Animate.html
-    Flex.css
-    Flex.html
-    Grid.css
-    Grid.html
-    Media.css
-    Media.html
-    Properties.css
-    Properties.html 
-    Animate.css
+Animate.css
+Animate.html
+Flex.css
+Flex.html
+Grid.css
+Grid.html
+Media.css
+Media.html
+Properties.css
+Properties.html 
+
 
 ### Animate.css 
 Contains various CSS animations that can be applied to HTML elements. This file demonstrates how to use keyframes and animation properties to create smooth and visually appealing transitions.
